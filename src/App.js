@@ -11,8 +11,8 @@ const App = () => {
       </div>
       <UserComponent
           name={'Ihor'}
-          userName={'dev'}
-          nickName={'js'}
+          userName={'dev12'}
+          nickName={'js12'}
           element = {firstDiv}
       />
         <UserComponent
