@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import './App.css';
+import UserComponent from "./components/UserComponent/UserComponent";
+
+const firstDiv = <div>Hello Word</div>
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>
+        Hello word
+      </div>
+      <UserComponent
+          name={'Ihor'}
+          userName={'dev'}
+          nickName={'js'}
+          element = {firstDiv}
+      />
+        <UserComponent
+            name={' ne Ihor'}
+            userName={'ne dev'}
+            nickName={'ne  js'}
+            element = {firstDiv}
+        />
+    </>
   );
-}
+};
 
 export default App;
