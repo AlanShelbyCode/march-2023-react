@@ -1,0 +1,9 @@
+.container{
+    margin: 10px;
+    border: solid 2px black;
+    padding: 10px;
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
