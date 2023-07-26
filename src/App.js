@@ -12,7 +12,7 @@ const App = () => {
       <UserComponent
           name={'Ihor'}
           userName={'dev12'}
-          nickName={'js12'}
+          nickName={'js'}
           element = {firstDiv}
       />
         <UserComponent
