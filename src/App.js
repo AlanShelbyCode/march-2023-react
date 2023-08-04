@@ -1,8 +1,13 @@
 import './App.css';
+import {UserContainer} from "./components/UserContainer/UserContainer";
+import {useState} from "react";
+
 const App = () => {
+    const [show, setShow] = useState(true   )
   return (
       <>
-          <h1>Task 1 Simpson</h1>
+          <p>{show ?  "Show" : "Hidden"}</p>
+          {show && <UserContainer/>}
       </>
   );
 };
